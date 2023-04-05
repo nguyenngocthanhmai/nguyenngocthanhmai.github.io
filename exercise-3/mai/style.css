@@ -1,0 +1,262 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFBE9;
+}
+/* Top-container CSS */
+.top-container{
+    background-color: #9CB4CC;
+    padding-top: 150px;
+    position: relative;
+    text-align: center;
+}
+.sun{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+}
+.sun img{
+    width: 100%;
+    height:auto;
+}
+.top-cloud{
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    width: 200px;
+    height: 200px;
+}
+.top-cloud1{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 200px;
+    height: 200px;
+}
+.top-cloud1 img{
+    width: 100%;
+}
+.top-cloud img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    font-family: 'Handlee', cursive;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    color: #F2D7D9;
+    font-weight: bold;
+    text-shadow: 10px 10px 5px #748DA6;
+}
+h2{
+    font-family: 'Handlee', cursive;
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: #D3CEDF;
+    border: 2px solid #748DA6;
+    background-color: #748DA6;
+    margin: 0;
+}
+span{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.airplane{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    right: 100px;
+}
+.airplane img{
+    width: 100%
+}
+.airplane1{
+    position: absolute;
+    bottom: 200px;
+    right: 10px;
+}
+.bottom-cloud{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 250px;
+    left: 150px;
+}
+.bottom-cloud img{
+    width: 100%;
+}
+.bottom-cloud1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 200px;
+    left: 500px;
+}
+.bottom-cloud1 img{
+    width: 100%;
+}
+.flowers{
+    display: flex;
+    justify-content: center;
+}
+.flowers img{
+    margin: 0px;
+}
+
+/* Middle-container CSS */
+.middle-container{
+    /* margin-top: 20px;*/
+    padding: 20px;
+    background-color: #D3CEDF;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile img{
+    border: 5px solid #748DA6;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
+.profile h1{
+    font-family: 'Handlee', cursive;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 80px;
+    color: #F2D7D9;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px #748DA6;
+}
+.profile p{
+    font-family: 'Handlee', cursive;
+    font-family: 'Patrick Hand SC', cursive;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+hr{
+    border: dotted #748DA6 10px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+h3{
+    font-family: 'Handlee', cursive;
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 40px;
+    font-weight: bold;
+    color: #748DA6;
+    padding: 10px;
+}
+.my-achievement{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-achievement img{
+    width: 400px;
+    height: 200px;
+    margin: 0 10px 0 20px;
+}
+.my-achievement h3{
+    background-color: #748DA6;
+    color: #D3CEDF;
+    font-size: 30px;
+}
+.my-achievement p{
+    font-family: 'Handlee', cursive;
+    font-family: 'Patrick Hand SC', cursive;
+    text-align:justify;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.contact h3{
+    padding: 0;
+    margin: 0;
+}
+.contact p{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+.contact .button{
+    border: #748DA6 6px solid;
+    border-radius: 10px;
+    background-color: #748DA6;
+    box-shadow: 10px 10px 5px #9CB4CC;
+    padding: 5px;
+    color: #D3CEDF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 25px;
+    font-weight: bolder; 
+}
+.contact .button:hover{
+    border: #F2D7D9 6px solid;
+    border-radius: 10px;
+    background-color: #F2D7D9;
+    box-shadow: 10px 10px 5px #748DA6;
+    color:#748DA6 ;
+    transition: ease-out 0.5s;
+}
+
+/* bottom container css */
+.bottom-container{
+    background-color: #748DA6;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+.bottom-container a{
+    display: inline-block;
+    font-family:'Patrick Hand SC', cursive; ;
+    font-size: 25px;
+    font-weight: bold;
+    color:#F2D7D9;
+    margin: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bottom-container p{
+    font-family:'Patrick Hand SC', cursive; ;
+    font-size: 15px;
+    color:#F2D7D9;
+    margin: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Responsive */
+@media only screen and (max-width:768px) {
+    .my-achievement{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
