@@ -1,0 +1,444 @@
+<!--RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Nguyen Ngoc Thanh Mai 
+ID: s3978486
+Acknowledgement:     https://www.w3schools.com/howto/howto_css_blurred_background.asp
+                     https://www.pinterest.com/
+                     https://www.goodreads.com/
+                     https://www.fahasa.com/foreigncategory.html
+                     https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=topnav_storetab_b
+                     https://www.barnesandnoble.com/
+                     https://unsplash.com/fr/s/photos/book
+                     https://colorhunt.co/palette/8d8daadfdfdef7f5f2f56d91
+                     https://colorhunt.co/palette/0f1021d01257fb90b7ffcee4
+                     https://www.flaticon.com/.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malita in your area</title>
+<!--Css Link-->
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+<!--Flaticon icon-->
+<link rel="icon" type="image/png" href="../img/LOGO.png">
+<!--FontAwesome icon-->
+<script src="https://kit.fontawesome.com/3b3da2da02.js" crossorigin="anonymous"></script>
+<!--Fonts link-->
+<!--Vidaloka, serif-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+<!--Roboto, sans-serif-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vidaloka&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<!--header section starts-->
+<header>
+<div class="top_section">
+<div class="logo">
+    <a href="index.html">
+        <img class="logo-img" src="../img/LOGO1-removebg-preview.png" alt="bookstore-logo">
+    </a>
+    <a class="logo-text" href="index.html">Malita</a>
+</div>
+<form method="get" class="top-search" action="search">
+    <label>
+        <input class="search-bar" type="search" name="search" value="Search by Title, Author, Keyword">
+    </label>
+    <button type="submit" class="search-button">Search
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+    </button>
+</form>
+<div class="ham-user">
+    <div class="user-account">
+        <a href="#">
+            <i class="fa-solid fa-user fa-lg" style="color: #000000;"></i>
+        </a>
+    </div>
+</div> 
+</div>  
+<!--Navbar icon for responsive uses-->
+<div class="mobile-nav-icon">☰</div>
+<nav>
+<div class="navigation-bar">
+    <ul class="serif nav-ele">
+        <li class="serif"><a href="index.html" target="_blank">Home</a></li>
+        <li class="serif"><a href="category_page.html" target="_blank">Genres</a></li>
+        <li class="serif"><a href="index.html" target="_blank">Shop Now!</a></li>
+        <li class="serif"><a href="contactUs.html" target="_blank">Contact Us</a></li>
+    </ul>
+    <div class="shopping-icon">
+        <a href="#" target="_blank">
+            <img class="shopping" src="../img/bag.png">
+        </a>
+        <a href="#" target="_blank">Buy Now!</a>
+    </div>
+</div>
+</nav>
+</div>
+<div id="container">
+<div class="bg-image"></div>
+<div class="banner-quote-content">
+</div>
+</div> 
+</div>
+</header>     
+<!--header section ends-->  
+
+<!--directional bar-->
+<section class="directional-bar">
+<div class="directional-bar-container">
+<p class="sans-serif">
+    <span>
+        <a href="index.html">Home</a>
+        >
+        <a href="category_page.html"> Genres</a>
+        >
+        <span class="book-name">Twilight</span>
+    </span>
+</p>
+</div>
+</section>
+
+<!--book detail section-->
+<section class="book-detail">
+<div class="book-detail-container">
+<div class="row-detail">
+    <div class="main-img">
+        <img src="../img/twilight.jpg" alt="MSOR main image">
+    </div>
+</div>
+<div class="row-detail">
+    <div class="sub-img">
+        <img src="../img/twilight2.jpg" alt="first sub MSOR img">
+    </div>
+    <div class="sub-img">
+        <img src="../img/twilight1.jpg" alt="second sub MSOR img">
+    </div>
+    <div class="sub-img">
+        <img src="../img/twilight3.jpg" alt="third sub MSOR img">
+    </div>
+</div>
+<div class="row-detail">
+    <div class="detail-content">
+        <h1 class="serif">Twilight #1</h1>
+        <hr class="purple-line">
+        <p class="sans-serif"><span class=" serif bold">Author</span> : Stephenie Meyer</p>
+        <p class="sans-serif"><span class=" serif bold">Genre</span> : Young Adults Fantasy </p>
+        <h2 class="serif">$ 13.26</h2>
+        <hr class="purple-line">
+        <div class="sans-serif dispatch">
+            <div>
+                <img src="../img/delivery-truck-with-circular-clock.png" alt="shipping-icon">
+                <span class="sans-serif">Dispatched within 24 hours</span>
+            </div>
+            <div>
+                <img src="../img/credit-card (1).png" alt="shipping-icon">
+                <span class="sans-serif">Safe and Secure Payment</span>
+            </div>
+        </div>
+        <hr class="purple-line">
+    </div>
+    <button class="add-btn serif">Add to Cart</button>
+</div>
+</div>
+</section>
+
+<!--Icon section starts-->
+<section class="icons-container">
+<div class="icon">
+<img src="../img/free-shipping.png" alt="free-shipping-icon">
+<div class="info">
+    <h3 class="serif">Free Delivery</h3>
+    <span class="sans-serif">On all orders</span>
+</div>
+</div>
+
+<div class="icon">
+<img src="../img/credit-card.png" alt="credit-card-icon">
+<div class="info">
+    <h3 class="serif">Security Paymens</h3>
+    <span class="sans-serif">Protected by paypal</span>
+</div>
+
+</div>
+
+<div class="icon">
+<img src="../img/money.png" alt="money-icon">
+<div class="info">
+    <h3 class="serif">7 Days Return</h3>
+    <span class="sans-serif">Moneyback Guarantee</span>
+</div>
+</div>
+
+<div class="icon">
+<img src="../img/gift-card.png" alt="gift-card-icon">
+<div class="info">
+    <h3 class="serif">Offers & Gifts</h3>
+    <span class="sans-serif">On all orders</span>
+</div>
+</div>
+</section>
+<!--Icon section ends-->
+
+
+
+<!--similar product section-->
+<div class="genre-container">
+<div class="category">
+<h1 class="serif fiction">Twilight Saga Series</h1>
+<div class="book-type">
+    <div class="genre-box">
+    <div class="img">
+        <img class="book-img" src="../img/tl-new-moon.jpg" alt="tl-new-moon Book">
+    </div>
+    <div class="content">
+        <h3 class="serif title">New Moon #2</h3>
+        <div class="sans-serif price">$13.5</div>
+    </div>
+</div>
+
+<div class="genre-box">
+    <div class="img">
+        <img class="book-img" src="../img/tl-eclipse.jpg" alt="tl-eclipse Book">
+    </div>
+    <div class="content">
+        <h3 class="serif title">Eclipse #3</h3>
+        <div class="sans-serif price">$13.99</div>
+    </div>
+</div>
+
+<div class="genre-box">
+    <div class="img">
+        <img class="book-img" src="../img/tl-breaking-dawn.jpg" alt="tl-breaking-drawn book">
+    </div>
+    <div class="content">
+        <h3 class="serif title">Breaking Drawn #4</h3>
+        <div class="sans-serif price">$12.99</div>
+    </div>
+</div>
+
+<div class="genre-box">
+    <div class="img">
+        <img class="book-img" src="../img/tl-midnight-sun.jpg" alt="tl-midnight-sun">
+    </div>
+    <div class="content">
+        <h3 class="serif title">Midnight Sun #5</h3>
+        <div class="sans-serif price">$13.69</div>
+    </div>
+</div>
+</div>
+</div>
+
+<!--About book details-->
+<section>
+<div class="genre-container">
+<div class="category new">
+    <h1 class="serif fiction">Book Description</h1>
+    <div class="book-detail">
+        <div class="left-info">
+            <div class="left-detail">
+                <h2 class="sans-serif">Cover Type :</h2>
+            </div>
+            <div class="left-detail">
+                <h2 class="sans-serif">Number of Pages :</h2>
+            </div>
+            <div class="left-detail">
+                <h2 class="sans-serif">Size :</h2>
+            </div>
+        </div>
+        <div class="right-info">
+            <div class="right-detail">
+                <p class="sans-serif">Paperback</p>
+            </div>
+            <div class="right-detail">
+                <p class="sans-serif">	
+                    498</p>
+            </div>
+            <div class="right-detail">
+                <p class="sans-serif">20.828 x 13.97 x 3.937 cm</p>
+            </div>
+        </div>
+    </div>
+    <hr class="line">
+    <div class="book-summary">
+        <p class="sans-serif" style="font-weight: bold;"> Fall in love with the addictive, suspenseful love story between a teenage girl and a vampire with the book that sparked a "literary phenomenon" and redefined romance for a generation. <br>(New York Times).</p>
+
+        <p class="sans-serif">Isabella Swan's move to Forks, a small, perpetually rainy town in Washington, could have been the most boring move she ever made. But once she meets the mysterious and alluring Edward Cullen, Isabella's life takes a thrilling and terrifying turn.
+        </p>
+
+        <p class="sans-serif">Up until now, Edward has managed to keep his vampire identity a secret in the small community he lives in, but now nobody is safe, especially Isabella, the person Edward holds most dear. The lovers find themselves balanced precariously on the point of a knife -- between desire and danger.
+        </p>
+
+        <p class="sans-serif">Deeply romantic and extraordinarily suspenseful, Twilight captures the struggle between defying our instincts and satisfying our desires. This is a love story with bite.
+        </p>
+    </div>
+</div>
+</div>
+</section>
+<!--Footer Section starts-->
+
+<footer class="page-footer">
+<div class="footer-contents">
+<div class="footer-row">
+    <div class="display multi-media">
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/QZTDZFtbrec?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.0717237060176!2d106.69318641038406!3d10.728951489372847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fbea5fe3db1%3A0xfae94aca5709003f!2sRMIT%20University%20Vietnam%20-%20Saigon%20South%20campus!5e0!3m2!1sen!2s!4v1681666224984!5m2!1sen!2s" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+<div class="footer-row">
+    <div class="display Malita">
+        <div class="logo">
+            <img class="logo-img" src="../img/LOGO1-removebg-preview.png" alt="bookstore-logo"> 
+            <a class="serif logo-text" href="index.html">Malita</a>
+        </div>
+        <div class="style address">
+            <img class="image-icon" src="../img/location (1).png" alt="location">
+            <p class="sans-serif info">702 Nguyen Van Linh street, Tan Hung, District 7</p>
+        </div>
+        <div class="style email">
+            <img class="image-icon" src="../img/email.png" alt="email">
+            <a class="sans-serif" href="emailto:s3978486@rmit.edu.vn">s3978486@rmit.edu.vn</a>
+        </div>
+        <div class="style phone">
+            <img class="image-icon" src="../img/old-typical-phone.png" alt="phone">
+            <p class="sans-serif info phone-no">0977702769</p>
+        </div>
+    </div>
+    <div class="social">
+        <div class="fb-icon">
+            <a href="https://www.facebook.com/ThannhMaii.Nguyenn/">
+                <img class="social-img" src="../img/facebook (1).png" alt="facebook-icon">
+            </a>
+        </div>
+        <div class="ig-icon">
+            <a href="https://www.instagram.com/malita_04z/">
+                <img class="social-img" src="../img/instagram (1).png" alt="instagram-icon">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="footer-row">
+    <div class="display Malita">
+        <p class="serif title">Book Genres</p>
+        <hr class="footer-underline">
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="sans-serif">Literary Fiction</span>
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                    <span class="sans-serif">Romance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="sans-serif">Fantasy</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="sans-serif">Young Adults</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="sans-serif">Science</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="sans-serif">Personal Development</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="sans-serif">Food & Drink</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer-row">
+    <div class="display Malita">
+        <p class="serif title">Malita Support</p>
+        <hr class="footer-underline">
+        <div class="list">
+            <ul>
+                <li>
+                    <span class="sans-serif support">Shipping Policy</span>
+                </li>
+                <li>
+                    <span class="sans-serif support">Return & Refund Policy</span>
+                </li>
+                <li>
+                    <span class="sans-serif support">Payment</span>
+                </li>
+            </ul>
+        </div>
+        <p class="serif title">Malita Services</p>
+        <hr class="footer-underline">
+        <div class="list">
+            <ul>
+                <li>
+                    <span class="sans-serif support">Privacy Policy</span>
+                </li>
+                <li>
+                    <span class="sans-serif support">Payment</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>  
+<hr class="footer-line">
+<div class="service-container">
+<div class="available-services">
+    <div class="delivery-img">
+        <img src="../img/ahamove.png" alt="ahamove logo">
+    </div>
+    <div class="delivery-img">
+        <img src="../img/vnpost1.png" alt="vietnam post logo">
+    </div>
+    <div class="delivery-img">
+        <img src="../img/icon_giao_hang_nhanh1.png" alt="ghn logo">
+    </div>
+</div> 
+<div class="available-services">
+    <div class="momo img">
+        <img src="../img/momopay.png" alt="momo logo">S
+    </div>
+    <div class="vnpay img">
+        <img src="../img/vnpay_logo.png" alt="vnpay logo">
+    </div>
+    <div class="visa img">
+        <img src="../img/visa-removebg-preview.png" alt="visa logo">
+    </div>
+    <div class="master img">
+        <img src="../img/master-card-removebg-preview.png" alt="master-card logo">
+    </div>
+</div> 
+</div>
+<p class=" serif copy">©️ 17-4-2023 | Copyright by Mai Nguyen | Founder of Malita Bookstore </p>
+</footer>
+<!--Footer Section ends-->
+</body>
+</html>
+
+

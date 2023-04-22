@@ -1,0 +1,872 @@
+<!--RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Nguyen Ngoc Thanh Mai 
+    ID: s3978486
+    Acknowledgement: https://www.w3schools.com/howto/howto_css_blurred_background.asp
+                     https://www.pinterest.com/
+                     https://www.goodreads.com/
+                     https://www.fahasa.com/foreigncategory.html
+                     https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=topnav_storetab_b
+                     https://www.barnesandnoble.com/
+                     https://unsplash.com/fr/s/photos/book
+                     https://colorhunt.co/palette/8d8daadfdfdef7f5f2f56d91
+                     https://colorhunt.co/palette/0f1021d01257fb90b7ffcee4
+                     https://www.flaticon.com/-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malita in your area</title>
+    <!--Css Link-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!--Flaticon icon-->
+    <link rel="icon" type="image/png" href="../img/LOGO.png">
+    <!--FontAwesome icon-->
+    <script src="https://kit.fontawesome.com/3b3da2da02.js" crossorigin="anonymous"></script>
+    <!--Fonts link-->
+    <!--Vidaloka, serif-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <!--Roboto, sans-serif-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vidaloka&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--header section starts-->
+    <header>
+        <div class="top_section">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logo-img" src="../img/LOGO1-removebg-preview.png" alt="bookstore-logo">
+                </a>
+                <a class="logo-text" href="index.html">Malita</a>
+            </div>
+            <form method="get" class="top-search" action="search">
+                <label>
+                    <input class="search-bar" type="search" name="search" value="Search by Title, Author, Keyword">
+                </label>
+                <button type="submit" class="search-button">Search
+                    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                </button>
+            </form>
+            <div class="ham-user">
+                <div class="user-account">
+                    <a href="#">
+                        <i class="fa-solid fa-user fa-lg" style="color: #000000;"></i>
+                    </a>
+                </div>
+            </div> 
+        </div>  
+        <!--Navbar icon for responsive uses-->
+       <div class="mobile-nav-icon">☰</div>
+        <nav>
+            <div class="navigation-bar">
+                <ul class="serif nav-ele">
+                    <li class="serif"><a href="index.html" target="_blank">Home</a></li>
+                    <li class="serif"><a href="category_page.html" target="_blank">Genres</a></li>
+                    <li class="serif"><a href="#category" target="_blank">Shop Now!</a></li>
+                    <li class="serif"><a href="contactUs.html" target="_blank">Contact Us</a></li>
+                </ul>
+                <div class="shopping-icon">
+                    <a href="#" target="_blank">
+                        <img class="shopping" src="../img/bag.png">
+                    </a>
+                    <a href="#" target="_blank">Buy Now!</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+        <div id="container">
+            <div class="bg-image"></div>
+            <div class="banner-quote-content">
+                <div id="quote">
+                    <h1 class="main-slogan">Today a reader,<br> tomorrow a leader</h1>
+                    <p class="sub-slogan">Books - the most dedicated knowledge sources.</p>
+                <button class="quote-button">Explore more!</button>
+            </div>  
+
+            <div id="banner">
+                <div class="card">
+                    <div class="img-book">
+                        <img class="book" src="../img/the_little_prince.jpg" alt="book1">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-book">
+                        <img class="book" src="../img/Little-Women.jpg" alt="book2">
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="img-book">
+                        <img class="book" src="../img/A-Wrinkle-in-Time.jpg" alt="book3">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-book">
+                        <img class="book" src="../img/The-Fault-in-Our-Stars.jpg" alt="book3">
+                    </div>
+                </div>
+            </div></div>
+            
+        </div> 
+    </div>
+    </header>     
+    <!--header section ends-->  
+
+   <!--Icon section starts-->
+    <section class="icons-container">
+        <div class="icon">
+            <img src="../img/free-shipping.png" alt="free-shipping-icon">
+            <div class="info">
+                <h3 class="serif">Free Delivery</h3>
+                <span class="sans-serif">On all orders</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="../img/credit-card.png" alt="credit-card-icon">
+            <div class="info">
+                <h3 class="serif">Security Paymens</h3>
+                <span class="sans-serif">Protected by paypal</span>
+            </div>
+            
+        </div>
+
+        <div class="icon">
+            <img src="../img/money.png" alt="money-icon">
+            <div class="info">
+                <h3 class="serif">7 Days Return</h3>
+                <span class="sans-serif">Moneyback Guarantee</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="../img/gift-card.png" alt="gift-card-icon">
+            <div class="info">
+                <h3 class="serif">Offers & Gifts</h3>
+                <span class="sans-serif">On all orders</span>
+            </div>
+        </div>
+    </section>
+    <!--Icon section ends-->
+
+    <!--Product section starts-->
+    <section class="products" id="products">
+        <h1 class="serif heading"> <span class="top-head">Top</span> Products</h1>
+        <hr class="underline">
+        <div class="product-container">
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">Hot🔥</span>
+                    <div class="product-img">
+                        <img src="../img/Atomic-Habits.jpg" atl="Atomic Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">Atomic Habits</h3>
+                        <div class=" sans-serif price">$13</div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">Hot🔥</span>
+                    <div class="product-img">
+                        <img src="../img/understand-the-heart.jpg" atl="UTH Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">Understand The Heart</h3>
+                        <div class=" sans-serif price">$15</div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">Hot🔥</span>
+                    <div class="product-img">
+                        <img src="../img/you-can-read-anyone.jpg" atl="UCRA Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">You Can Read Anyone</h3>
+                        <div class=" sans-serif price">$8.99</div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">Hot🔥</span>
+                    <div class="product-img">
+                        <img src="../img/The-Sympathizer.png" atl="The Sympathizer Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">The Sympathizer</h3>
+                        <div class=" sans-serif price">$14</div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">Hot🔥</span>
+                    <div class="product-img">
+                        <img src="../img/Chi-Pheo.jpg" atl="Chi Pheo Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">Chi Pheo</h3>
+                        <div class=" sans-serif price">$12</div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            
+    </section>
+    <!--Product section ends-->
+
+    <!--Discount Announcement starts-->
+    <section class="icons-container">
+        <div class="discount-icon">
+            <img src="../img/tag (2).png" alt="free-shipping-icon">
+            <div class="info">
+                <h3 class="serif">Buy One, Get One 50% Off Books</h3>
+                <span class="sans-serif sub-info">For All Genres</span>
+            </div>
+        </div>
+        <button class="explore-btn">
+            <a class="sans-serif" href="#category">Explore Now!</a>
+        </button>
+    </section>
+    <!--Discount Announcement ends-->  
+
+    <!--Promotion Books starts-->
+    <section class="products" id="on-sale-products">
+        <h1 class="serif heading"> <span class="top-head">On Sale</span> Products</h1>
+        <hr class="underline">
+        <div class="product-container">
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">10%</span>
+                    <div class="product-img">
+                        <img src="../img/Spare.jpg" atl="Spare Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">Spare</h3>
+                        <span class="sans-serif old-price">$15</span>
+                        <span class=" sans-serif new-price">$13.5</span>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/rating.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">30%</span>
+                    <div class="product-img">
+                        <img src="../img/the_little_prince.jpg" atl="the_little_prince Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">The Little Prince</h3>
+                        <span class="sans-serif old-price">$16</span>
+                        <span class=" sans-serif new-price">$11.2</span>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">10%</span>
+                    <div class="product-img">
+                        <img src="../img/Little-Women.jpg" atl="Little Women Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">Little Women</h3>
+                        <span class="sans-serif old-price">$18</span>
+                        <span class=" sans-serif new-price">$16.2</span>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">20%</span>
+                    <div class="product-img">
+                        <img src="../img/A-Wrinkle-in-Time.jpg" atl="A-Wrinkle-In-Time Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">A Wrinke In Time</h3>
+                        <span class="sans-serif old-price">$18</span>
+                        <span class=" sans-serif new-price">$14.4</span>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/rating.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <span class="hot">15%</span>
+                    <div class="product-img">
+                        <img src="../img/The-Fault-in-Our-Stars.jpg" atl="The The-Fault-in-Our-Stars Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif">The Fault in Our Stars</h3>
+                        <span class="sans-serif old-price">$19</span>
+                        <span class=" sans-serif new-price">$16.6</span>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/rating.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="sans-serif cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div> 
+    </section>
+    <!--Promotion Books ends-->
+
+    <!--Category Section starts-->
+    <section id="category">
+        <h1 class="serif heading"> Books' <span class="top-head">Genres</span></h1>
+        <hr class="underline">
+        <div class="genre-container">
+            <div class="category">
+                <h1 class="serif fiction">Fiction</h1>
+                <div class="book-type">
+                    <div class="genre-box">
+                    <div class="img">
+                        <img class="book-img" src="../img/The-Hobbit.jpg" alt="The Hobbit Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif title">The Hobbit</h3>
+                        <div class="sans-serif price">$13.99</div>
+                    </div>
+                    <div class="stars">
+                        <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/rating.png" alt="star">
+                    </div>
+                </div>
+
+                <div class="genre-box">
+                    <div class="img">
+                        <img class="book-img" src="../img/To-kill-a-mocking-bird.jpg" alt="To-kill-a-mocking-bird">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif title">To Kill A Mocking Bird</h3>
+                        <div class="sans-serif price">$13.99</div>
+                    </div>
+                    <div class="stars">
+                        <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                    </div>
+                </div>
+
+                <div class="genre-box">
+                    <div class="img">
+                        <img class="book-img" src="../img/Love-Story.jpg" alt="Love Story Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif title">Love Story</h3>
+                        <div class="sans-serif price">$6.99</div>
+                    </div>
+                    <div class="stars">
+                        <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/rating.png" alt="star">
+                    </div>
+                </div>
+
+                <div class="genre-box">
+                    <div class="img">
+                        <img class="book-img" src="../img/Recursion.jpg" alt="Recursion Book">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif title">Recursion</h3>
+                        <div class="sans-serif price">$13.5</div>
+                    </div>
+                    <div class="stars">
+                        <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                    </div>
+                </div>
+
+                <div class="genre-box">
+                    <div class="img">
+                        <img class="book-img" src="../img/cam.jpg" alt="My Sweet Orange Tree">
+                    </div>
+                    <div class="content">
+                        <h3 class="serif title">My Sweet Orange Tree</h3>
+                        <div class="sans-serif price">$14.79</div>
+                    </div>
+                    <div class="stars">
+                        <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                            <img src="../img/star.png" alt="star">
+                    </div>
+                </div>
+
+                <button class="sans-serif detail-btn">
+                    <a href="category_page.html">More Details</a></button>
+                </div>
+            </div>
+                
+
+            <div class="category">
+                <h1 class="serif fiction">Non-Fiction</h1>
+                <div class="book-type">
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/Homo-Deus.jpg" alt="Homo-Deus Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">Homo Deus</h3>
+                            <div class="sans-serif price">$14.38</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/rating.png" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/The-diary-of-young-girl.jpg" alt="The Diary of young girl Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">The Diary of Young Girl</h3>
+                            <div class="sans-serif price">$7.99</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+    
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/Wild-Swans.jpg" alt="Wild Swans Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">Wild Swans</h3>
+                            <div class="sans-serif price">$12.99</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+    
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/you-can-heal-your-life.jpg" alt="You Can Heal Your Life Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">You Can Heal Your Life</h3>
+                            <div class="sans-serif price">$8.79</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+    
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/salt.jpg" alt="Salt: A world history book Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">Salt</h3>
+                            <div class="sans-serif price">$13.79</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/rating.png" alt="star">
+                        </div>
+                    </div>
+                    <button class="sans-serif detail-btn">
+                        <a href="category_page.html">More Details</a></button>
+                </div>
+    
+                </div>
+                
+            <div class="category">
+                <h1 class="serif fiction">Children's Books</h1>
+                <div class="book-type">
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/Ticket-to-child-hood.jpg" alt="Ticket-to-child-hood Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">Ticket-to-child-hood</h3>
+                            <div class="sans-serif price">$19.29</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+    
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/pax.jpg" alt="Pax Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">Pax</h3>
+                            <div class="sans-serif price">$7.99</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/rating.png" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/Anne-of-Green-Gables.jpg" alt="Anne-of-Green-Gables">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">Anne of Green Gables</h3>
+                            <div class="sans-serif price">$10</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+    
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/legend.jpg" alt="Legend of the Star Runner Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">Legend of the Star Runner</h3>
+                            <div class="sans-serif price">$8.90</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                        </div>
+                    </div>
+    
+                    <div class="genre-box">
+                        <div class="img">
+                            <img class="book-img" src="../img/flowers.jpg" alt="Flower Coloring Book">
+                        </div>
+                        <div class="content">
+                            <h3 class="serif title">Flower Coloring Book</h3>
+                            <div class="sans-serif price">$6.98</div>
+                        </div>
+                        <div class="stars">
+                            <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/star.png" alt="star">
+                                <img src="../img/rating.png" alt="star">
+                        </div>
+                        <button class="sans-serif detail-btn">
+                            <a href="category_page.html">More Details</a></button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--Category Section ends-->
+
+    <!--Footer Section starts-->
+    <footer class="page-footer">
+        <div class="footer-contents">
+            <div class="footer-row">
+                <div class="display multi-media">
+                   <iframe width="400" height="250" src="https://www.youtube.com/embed/QZTDZFtbrec?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.0717237060176!2d106.69318641038406!3d10.728951489372847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fbea5fe3db1%3A0xfae94aca5709003f!2sRMIT%20University%20Vietnam%20-%20Saigon%20South%20campus!5e0!3m2!1sen!2s!4v1681666224984!5m2!1sen!2s" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="display Malita">
+                    <div class="logo">
+                        <img class="logo-img" src="../img/LOGO1-removebg-preview.png" alt="bookstore-logo"> 
+                        <a class="serif logo-text" href="index.html">Malita</a>
+                    </div>
+                    <div class="style address">
+                        <img class="image-icon" src="../img/location (1).png" alt="location">
+                        <p class="sans-serif info">702 Nguyen Van Linh street, Tan Hung, District 7</p>
+                    </div>
+                    <div class="style email">
+                        <img class="image-icon" src="../img/email.png" alt="email">
+                        <a class="sans-serif" href="emailto:s3978486@rmit.edu.vn">s3978486@rmit.edu.vn</a>
+                    </div>
+                    <div class="style phone">
+                        <img class="image-icon" src="../img/old-typical-phone.png" alt="phone">
+                        <p class="sans-serif info phone-no">0977702769</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="fb-icon">
+                        <a href="https://www.facebook.com/ThannhMaii.Nguyenn/">
+                            <img class="social-img" src="../img/facebook (1).png" alt="facebook-icon">
+                        </a>
+                    </div>
+                    <div class="ig-icon">
+                        <a href="https://www.instagram.com/malita_04z/">
+                            <img class="social-img" src="../img/instagram (1).png" alt="instagram-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="display Malita">
+                    <p class="serif title">Book Genres</p>
+                    <hr class="footer-underline">
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Literary Fiction</span>
+                                </a>
+                            </li>
+                            <li> 
+                                <a href="#">
+                                <span class="sans-serif">Romance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Fantasy</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Young Adults</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Science</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Personal Development</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Food & Drink</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-row">
+                <div class="display Malita">
+                    <p class="serif title">Malita Support</p>
+                    <hr class="footer-underline">
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <span class="sans-serif support">Shipping Policy</span>
+                            </li>
+                            <li>
+                                <span class="sans-serif support">Return & Refund Policy</span>
+                            </li>
+                            <li>
+                                <span class="sans-serif support">Payment</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="serif title">Malita Services</p>
+                    <hr class="footer-underline">
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <span class="sans-serif support">Privacy Policy</span>
+                            </li>
+                            <li>
+                                <span class="sans-serif support">Payment</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <hr class="footer-line">
+        <div class="service-container">
+            <div class="available-services">
+                <div class="delivery-img">
+                    <img src="../img/ahamove.png" alt="ahamove logo">
+                </div>
+                <div class="delivery-img">
+                    <img src="../img/vnpost1.png" alt="vietnam post logo">
+                </div>
+                <div class="delivery-img">
+                    <img src="../img/icon_giao_hang_nhanh1.png" alt="ghn logo">
+                </div>
+            </div> 
+            <div class="available-services">
+                <div class="momo img">
+                    <img src="../img/momopay.png" alt="momo logo">
+                </div>
+                <div class="vnpay img">
+                    <img src="../img/vnpay_logo.png" alt="vnpay logo">
+                </div>
+                <div class="visa img">
+                    <img src="../img/visa-removebg-preview.png" alt="visa logo">
+                </div>
+                <div class="master img">
+                    <img src="../img/master-card-removebg-preview.png" alt="master-card logo">
+                </div>
+            </div> 
+        </div>
+        <p class=" serif copy">©️ 17-4-2023 | Copyright by Mai Nguyen | Founder of Malita Bookstore </p>
+    </footer>
+    <!--Footer Section ends-->
+
+</body>
+</html>

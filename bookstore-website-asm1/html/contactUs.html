@@ -1,0 +1,364 @@
+<!--RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Nguyen Ngoc Thanh Mai 
+    ID: s3978486
+    Acknowledgement: https://www.w3schools.com/howto/howto_css_blurred_background.asp
+                     https://www.pinterest.com/
+                     https://www.goodreads.com/
+                     https://www.fahasa.com/foreigncategory.html
+                     https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=topnav_storetab_b
+                     https://www.barnesandnoble.com/
+                     https://unsplash.com/fr/s/photos/book
+                     https://colorhunt.co/palette/8d8daadfdfdef7f5f2f56d91
+                     https://colorhunt.co/palette/0f1021d01257fb90b7ffcee4
+                     https://www.flaticon.com/.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malita in your area</title>
+     <!--Css Link-->
+     <link rel="stylesheet" type="text/css" href="../css/style3.css">
+     <!--Flaticon icon-->
+     <link rel="icon" type="image/png" href="../img/LOGO.png">
+     <!--FontAwesome icon-->
+     <script src="https://kit.fontawesome.com/3b3da2da02.js" crossorigin="anonymous"></script>
+     <!--Fonts link-->
+     <!--Vidaloka, serif-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+     <!--Roboto, sans-serif-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vidaloka&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header section starts-->
+    <header>
+        <div class="top_section">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logo-img" src="../img/LOGO1-removebg-preview.png" alt="bookstore-logo">
+                </a>
+                <a class="logo-text" href="index.html">Malita</a>
+            </div>
+            <form method="get" class="top-search" action="search">
+                <label>
+                    <input class="search-bar" type="search" name="search" value="Search by Title, Author, Keyword">
+                </label>
+                <button type="submit" class="search-button">Search
+                    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                </button>
+            </form>
+            <div class="ham-user">
+                <div class="user-account">
+                    <a href="#">
+                        <i class="fa-solid fa-user fa-lg" style="color: #000000;"></i>
+                    </a>
+                </div>
+            </div> 
+        </div>  
+        <!--Navbar icon for responsive uses-->
+        <div class="mobile-nav-icon">☰</div>
+        <nav>
+            <div class="navigation-bar">
+                <ul class="serif nav-ele">
+                    <li class="serif"><a href="index.html" target="_blank">Home</a></li>
+                    <li class="serif"><a href="category_page.html" target="_blank">Genres</a></li>
+                    <li class="serif"><a href="index.html" target="_blank">Shop Now!</a></li>
+                    <li class="serif"><a href="contactUs.html" target="_blank">Contact Us</a></li>
+                </ul>
+                <div class="shopping-icon">
+                    <a href="#" target="_blank">
+                        <img class="shopping" src="../img/bag.png">
+                    </a>
+                    <a href="#" target="_blank">Buy Now!</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+        <div id="container">
+            <div class="bg-image"></div>
+            <div class="banner-quote-content"></div>
+        </div>  
+    </div>
+    </header>     
+    <!--header section ends-->  
+
+    <!--directional bar-->
+    <section class="directional-bar">
+        <div class="directional-bar-container">
+            <p class="sans-serif">
+                <span>
+                    <a href="index.html">Home</a>
+                    >
+                    <a href="category_page.html"><span class="book-name">Contact Us</span></a>
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section class="form">
+        <div class="contact_us_information">
+            <div class="contact_us_information">
+                <div class="contact_us_main_information">
+                    <h1 class="serif contact_header">Malita Contact Information</h1>
+                    <hr class="purple_underline">
+                    <div class="contact_main_information">
+                        <div class="sans-serif main_info">
+                            <img src="../img/location (1).png" alt="location">
+                            <p class="detail_info">702 Nguyen Van Linh street, Tan Hung, District 7</p>
+                        </div>
+                        <div class="sans-serif main_info">
+                            <img src="../img/email.png" alt="email">
+                            <p class="detail_info">s3978486@rmit.edu.vn</p>
+                        </div>
+                        <div class="sans-serif main_info">
+                            <img src="../img/old-typical-phone.png" alt="phone">
+                            <p class="detail_info">0977702769</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_us_form_template">
+                <div class="contact_form">
+                    <div class="Contact_us_line_one">
+                        <h1 class="serif contact_header">Contact Us</p>
+                    </div>
+                    <form method="get" enctype="text/plain">
+                        <div class="input_line">
+                            <lable for="contact_purpose">
+                                <p class="serif">Contact Purpose:</p>
+                            </lable>
+                            <select id="contact_purpose" name="purpose" required>I want to--
+                                <option value="">I want to sell books</option>
+                                <option value="">I want to buy books</option>
+                            </select>
+                        </div>
+                        <div class="input_line">
+                            <lable for="name">
+                                <p class="serif">Name:</p>
+                            </lable>
+                            <input id="name" name="name:" value="Enter your name" type="text">
+                        </div>
+                        <div class="input_line">
+                            <lable for="email">
+                                <p class="serif">Email:</p>
+                            </lable>
+                            <input id="email" name="email:" value="Enter your email" type="text">
+                        </div>
+                        <div class="input_line">
+                            <lable for="phone" class="serif">
+                                <p class="serif">Phone:</p>
+                            </lable>
+                            <input id="phone" name="phone:" value="Enter your phone" type="text">
+                        </div>
+                        <div class="option_line">
+                            <p class="serif">Contact Preference:</p>
+                            <p class="sans-serif option_checkbox">
+                                <input type="checkbox" id="by_email" name="contact preference:" value="By Email">
+                                <lable for="by_email">By Email</lable>
+                            </p>
+                            <p class="sans-serif">
+                                <input type="checkbox" id="by_phone" name="contact preference:" value="By Phone">
+                                <lable for="by_phone">By Phone</lable>
+                            </p>
+                        </div>
+                        <div class="option_line">
+                            <p class="serif">Receive Weekly Newsletter:</p>
+                            <p class="sans-serif">
+                                <input type="radio" id="yes_option" name="Receive Weekly Newsletter:" value="Yes">
+                                <lable for="yes_option">Yes</lable>
+                            </p>
+                            <p class="sans-serif">
+                                <input type="radio" id="no_option" name="Receive Weekly Newsletter:" value="No">
+                                <lable for="no_option">No</lable>
+                            </p>
+                        </div>
+                        <div class="input_line">
+                            <lable for="note">
+                                <p class="serif">Extra Note:</p>
+                            </lable>
+                            <input id="note" name="extra note:" value="" type="text">
+                        </div>
+
+                    </form>
+                    <div class="contact_button">
+                        <button type="submit" class="sans-serif click_button submit">Submit</button>
+                        <button type="reset" class="sans-serif click_button reset">Reset</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    
+
+
+
+
+
+
+    <!--Footer Section starts-->
+     <footer class="page-footer">
+        <div class="footer-contents">
+            <div class="footer-row">
+                <div class="display multi-media">
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/QZTDZFtbrec?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.0717237060176!2d106.69318641038406!3d10.728951489372847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fbea5fe3db1%3A0xfae94aca5709003f!2sRMIT%20University%20Vietnam%20-%20Saigon%20South%20campus!5e0!3m2!1sen!2s!4v1681666224984!5m2!1sen!2s" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="display Malita">
+                    <div class="logo">
+                        <img class="logo-img" src="../img/LOGO1-removebg-preview.png" alt="bookstore-logo"> 
+                        <a class="serif logo-text" href="index.html">Malita</a>
+                    </div>
+                    <div class="style address">
+                        <img class="image-icon" src="../img/location (1).png" alt="location">
+                        <p class="sans-serif info">702 Nguyen Van Linh street, Tan Hung, District 7</p>
+                    </div>
+                    <div class="style email">
+                        <img class="image-icon" src="../img/email.png" alt="email">
+                        <a class="sans-serif" href="emailto:s3978486@rmit.edu.vn">s3978486@rmit.edu.vn</a>
+                    </div>
+                    <div class="style phone">
+                        <img class="image-icon" src="../img/old-typical-phone.png" alt="phone">
+                        <p class="sans-serif info phone-no">0977702769</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="fb-icon">
+                        <a href="https://www.facebook.com/ThannhMaii.Nguyenn/">
+                            <img class="social-img" src="../img/facebook (1).png" alt="facebook-icon">
+                        </a>
+                    </div>
+                    <div class="ig-icon">
+                        <a href="https://www.instagram.com/malita_04z/">
+                            <img class="social-img" src="../img/instagram (1).png" alt="instagram-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="display Malita">
+                    <p class="serif title">Book Genres</p>
+                    <hr class="footer-underline">
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Literary Fiction</span>
+                                </a>
+                            </li>
+                            <li> 
+                                <a href="#">
+                                <span class="sans-serif">Romance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Fantasy</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Young Adults</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Science</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Personal Development</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="sans-serif">Food & Drink</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-row">
+                <div class="display Malita">
+                    <p class="serif title">Malita Support</p>
+                    <hr class="footer-underline">
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <span class="sans-serif support">Shipping Policy</span>
+                            </li>
+                            <li>
+                                <span class="sans-serif support">Return & Refund Policy</span>
+                            </li>
+                            <li>
+                                <span class="sans-serif support">Payment</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="serif title">Malita Services</p>
+                    <hr class="footer-underline">
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <span class="sans-serif support">Privacy Policy</span>
+                            </li>
+                            <li>
+                                <span class="sans-serif support">Payment</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <hr class="footer-line">
+        <div class="service-container">
+            <div class="available-services">
+                <div class="delivery-img">
+                    <img src="../img/ahamove.png" alt="ahamove logo">
+                </div>
+                <div class="delivery-img">
+                    <img src="../img/vnpost1.png" alt="vietnam post logo">
+                </div>
+                <div class="delivery-img">
+                    <img src="../img/icon_giao_hang_nhanh1.png" alt="ghn logo">
+                </div>
+            </div> 
+            <div class="available-services">
+                <div class="momo img">
+                    <img src="../img/momopay.png" alt="momo logo">
+                </div>
+                <div class="vnpay img">
+                    <img src="../img/vnpay_logo.png" alt="vnpay logo">
+                </div>
+                <div class="visa img">
+                    <img src="../img/visa-removebg-preview.png" alt="visa logo">
+                </div>
+                <div class="master img">
+                    <img src="../img/master-card-removebg-preview.png" alt="master-card logo">
+                </div>
+            </div> 
+        </div>
+        <p class=" serif copy">©️ 17-4-2023 | Copyright by Mai Nguyen | Founder of Malita Bookstore </p>
+    </footer>
+    <!--Footer Section ends-->
+</body>
+</html>
